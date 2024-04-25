@@ -1,0 +1,126 @@
+.testimonial-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5em;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 380px;
+    height: 25vh;
+}
+
+.testimonial-body-pic {
+    color: white;
+    background-color: #2545B8;
+    margin-top: 7em;
+    padding: 11em 1em 4em;
+}
+
+.testimonial-body-no-pic {
+    position: relative;
+    color: #111827;
+    background-color: white;
+    margin-top: 0;
+    padding: 4em 1em;
+}
+
+.testimonial-body-pic,
+.testimonial-body-no-pic {
+    font-weight: 300;
+    text-align: left;
+}
+
+.dot-pattern {
+    position: absolute;
+    left: -10%;
+    bottom: -40%;
+}
+
+.testimonial-text-container {
+    position: relative;
+    z-index: 1000;
+}
+
+.logo-no-pic {
+    display: block;
+    margin: 0.25em auto 2em;
+}
+
+.testimonial-body-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.testimonial-source {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-source p {
+    margin: 0.25em 0;
+}
+
+.testimonial-source-name {
+    font-weight: 500;
+}
+
+.slash-logo {
+    display: none;
+    margin: 0 0.25em;
+}
+
+@media (min-width: 1024px) {
+    .profile-pic {
+        left: 5%;
+        top: 50%;
+        background-size: cover;
+        transform: translateY(-50%);
+        height: 120%;
+    }
+
+    .testimonial-body-pic {
+        margin-top: 0;
+        text-align: left;
+        padding: 8em 4em 5em;
+    }
+
+    .testimonial-text-container-pic,
+    .double-quotes {
+        padding-left: 40%;
+    }
+
+    .testimonial-body-text-no-pic {
+        max-width: 50%;
+        text-align: center;
+    }
+
+    .testimonial-source {
+        flex-direction: row;
+    }
+
+    .slash-logo {
+        display: inline;
+    }
+
+    .testimonial-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dot-pattern {
+        bottom: -20%;
+        left: -5%;
+    }
+}

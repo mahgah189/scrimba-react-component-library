@@ -1,0 +1,70 @@
+.banner-container {
+    display: grid;
+    grid-template: 1fr auto / auto 1fr;
+    grid-gap: 0.25em;
+    border-radius: 0.5em;
+    padding: 1em 0.75em;
+    margin: 5em auto;
+    width: 80vw;
+}
+
+.banner-container p {
+    font-size: 0.8rem;
+    margin: 0.25em;
+}
+
+.banner-header {
+    font-weight: 500;
+}
+
+.banner-body {
+    grid-column: 2;
+    font-weight: 300;
+}
+
+.banner-header,
+.banner-body {
+    text-align: left;
+}
+
+.banner-success {
+    color: #065F46;
+    background-color: #ECFDF5;
+}
+
+.banner-warning {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+
+.banner-error {
+    color: #92400E;
+    background-color: #FEF2F2;
+}
+
+.banner-neutral {
+    color: #1E40AF;
+    background-color: #EFF6FF;
+}
+
+.fa-solid {
+    align-self: center;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.fa-circle-check {
+    color: #34D399;
+}
+
+.fa-triangle-exclamation {
+    color: #FBBF24;
+}
+
+.fa-circle-xmark {
+    color: #F87171;
+}
+
+.fa-circle-info {
+    color: #60A5FA;
+}
